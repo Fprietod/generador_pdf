@@ -1,0 +1,25 @@
+Installation
+
+1.- Install Xvfd:
+sudo apt-get install xvfb
+
+2.- Install Fonts:
+sudo apt-get install xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic
+
+3.- Install wkhtmltopdf:
+sudo apt-get install wkhtmltopdf
+
+4.- Install flashplugin:
+sudo apt-get install flashplugin-nonfree
+
+5.- Install Python pdfkit
+pip3 install pdfkit
+
+6.- Install Python bottle
+pip3 install bottle
+
+7.- Install Python qrcode
+pip3 install qrcode
+
+8.- Install Pyhton PyVirtualDisplay
+pip3 install PyVirtualDisplay
