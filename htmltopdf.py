@@ -33,6 +33,6 @@ parameters = {
 }
 
 html = render_template(file, parameters)
-
-pdf = pdfkit.from_string(html, False, options=options)
+pdf = pdfkit.from_string(html,'out.pdf')
+#pdf = pdfkit.from_string(html, False, options=options)
 print(type(pdf))
