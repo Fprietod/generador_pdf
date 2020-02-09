@@ -30,6 +30,8 @@ parameters = {
 	'nombre': "Felipe Prieto de la Cruz",
 	'cargo' : "Presiente",
 	'fecha' : "15/02/2019",
+	'firma' : "Felipe Prieto de la Cruz",
+	'firma_director' : "HOla",
 }
 
 html = render_template(file, parameters)
