@@ -1,6 +1,8 @@
 from passlib.context import CryptContext
 # Renderizar HTML
 from bottle import SimpleTemplate
+# COdigo de barras
+from elaphe import barcode
 # PDF
 import pdfkit
 # QR
@@ -51,16 +53,24 @@ temp = BytesIO()
 img.save(temp, format="PNG")
 qr_img = base64.b64encode(temp.getvalue())
 
+#Genera Codigo de barras
+bc = barcode('code39', '2015301501', scale=1, margin=1)
+tmpp = BytesIO()
+bc.save(tmpp, format="PNG")
+barras = base64.b64encode(tmpp.getvalue())
+
+
 parameters = {
 	'nombre': "Felipe Prieto de la Cruz",
-	'cargo' : "Presiente",
+	'cargo' : "Presidente",
 	'fecha' : "15/02/2019",
-	'firma' : "Felipe Prieto de la Cruz",
+	'firma' : "Felipe Prieto de ",
 	'firma_director' : "HOla",
 	'qr_code' : qr_img,
+	'barras_code' : barras,
 }
 
 html = render_template(file, parameters)
-pdf = pdfkit.from_string(html,'out.pdf')
+pdf = pdfkit.from_string(html,'ejemplo.pdf')
 #pdf = pdfkit.from_string(html, False, options=options)
 print(type(pdf))

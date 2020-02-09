@@ -29,6 +29,12 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+p {
+	font-size: 17px;
+}
+p.hola{
+	font-size: 5px;
+}
 
 #pu94 {
 	z-index: 2;
@@ -1005,23 +1011,23 @@ span.actAsPara {
   <div class="clearfix borderbox" id="page"><!-- group -->
    <div class="clearfix grpelem" id="pu94"><!-- column -->
     <div class="clip_frame colelem" id="u94"><!-- image -->
-     <img class="block" id="u94_img" src="images/banner.jpg?crc=3963291067" alt="" data-heightwidthratio="0.12717536813922356" data-image-width="747" data-image-height="95"/>
+     <img class="block" id="u94_img" src="http://imgfz.com/i/EKVlM5n.jpeg?crc=3963291067" alt="" data-heightwidthratio="0.12717536813922356" data-image-width="747" data-image-height="95"/>
     </div>
     <div class="clearfix colelem" id="pu184"><!-- group -->
      <div class="grpelem" id="u184"><!-- simple frame --></div>
      <div class="clip_frame grpelem" id="u187"><!-- image -->
-      <img class="block" id="u187_img" src="images/florecita_logo.png?crc=3824773177" alt="" data-heightwidthratio="0.984375" data-image-width="320" data-image-height="315"/>
+      <img class="block" id="u187_img" src="http://imgfz.com/i/aX3Ql5C.png?crc=3824773177" alt="" data-heightwidthratio="0.984375" data-image-width="320" data-image-height="315"/>
      </div>
      <div class="clip_frame grpelem" id="u197"><!-- image -->
-      <img class="block" id="u197_img" src="images/letras.png?crc=533610735" alt="" data-heightwidthratio="0.5204081632653061" data-image-width="196" data-image-height="102"/>
+      <img class="block" id="u197_img" src="http://imgfz.com/i/qERbYAx.png?crc=533610735" alt="" data-heightwidthratio="0.5204081632653061" data-image-width="196" data-image-height="102"/>
      </div>
      <div class="grpelem" id="u207"><!-- simple frame --></div>
      <div class="clip_frame grpelem" id="u210"><!-- image -->
-      <img class="block" id="u210_img" src="data:image/png;base64,{{qr_code}}" alt="" data-heightwidthratio="1.008849557522124" data-image-width="113" data-image-height="114"/>
+      <img class="block" id="u210_img" src="data:image/png;base64,{{qr_code}}" alt="" data-heightwidthratio="1.008849557522124" data-image-width="110" data-image-height="112"/>
       
      </div>
      <div class="clip_frame grpelem" id="u232"><!-- image -->
-      <img class="block" id="u232_img" src="images/retrato.jpg?crc=3933049133" alt="" data-heightwidthratio="0.7755102040816326" data-image-width="147" data-image-height="114"/>
+      <img class="block" id="u232_img" src="http://imgfz.com/i/coz98dB.jpeg?crc=3933049133" alt="" data-heightwidthratio="0.7755102040816326" data-image-width="147" data-image-height="114"/>
      </div>
      <div class="clearfix grpelem" id="u245"><!-- group -->
       <div class="clearfix grpelem" id="u248-4"><!-- content -->
@@ -1036,31 +1042,31 @@ span.actAsPara {
       <p>Expedición:</p>
      </div>
      <div class="clearfix grpelem" id="u260-4"><!-- content -->
-      <p>Presidente</p>
+      <p>{{cargo}}</p>
      </div>
      <div class="clearfix grpelem" id="u263-4"><!-- content -->
-      <p>15/11/2019</p>
+      <p>{{fecha}}</p>
      </div>
      <div class="clearfix grpelem" id="u266-4"><!-- content -->
-      <p>Firma</p>
+      <p id = "hola">Firma</p>
      </div>
      <div class="clearfix grpelem" id="u269"><!-- group -->
       <div class="clearfix grpelem" id="u272-4"><!-- content -->
-       <p>DFNFDM</p>
+       <p>{{firma}}</p>
       </div>
      </div>
     </div>
     <div class="clearfix colelem" id="pu394"><!-- group -->
      <div class="grpelem" id="u394"><!-- simple frame --></div>
      <div class="clip_frame grpelem" id="u397"><!-- image -->
-      <img class="block" id="u397_img" src="images/logoipn.png?crc=4190937967" alt="" data-heightwidthratio="0.7101449275362319" data-image-width="345" data-image-height="245"/>
+      <img class="block" id="u397_img" src="http://imgfz.com/i/yrH1LYT.png?crc=4190937967" alt="" data-heightwidthratio="0.7101449275362319" data-image-width="345" data-image-height="245"/>
      </div>
      <div class="clip_frame grpelem" id="u419"><!-- image -->
-      <img class="block" id="u419_img" src="images/logoescomconletras.png?crc=466624805" alt="" data-heightwidthratio="0.7692307692307693" data-image-width="104" data-image-height="80"/>
+      <img class="block" id="u419_img" src="http://imgfz.com/i/4ItjR5q.png?crc=466624805" alt="" data-heightwidthratio="0.7692307692307693" data-image-width="104" data-image-height="80"/>
      </div>
      <div class="clearfix grpelem" id="u429"><!-- group -->
       <div class="clearfix grpelem" id="u446-4"><!-- content -->
-       <p>SFLJFDSNLF</p>
+       <p>{{firma_director}}</p>
       </div>
      </div>
      <div class="clearfix grpelem" id="u432-4"><!-- content -->
@@ -1070,7 +1076,7 @@ span.actAsPara {
       <p>DIRECTOR</p>
      </div>
      <div class="clip_frame grpelem" id="u472"><!-- image -->
-      <img class="block" id="u472_img" src="images/barras.jpg?crc=3958926524" alt="" data-heightwidthratio="0.1996124031007752" data-image-width="516" data-image-height="103"/>
+      <img class="block" id="u472_img" src="data:image/png;base64,{{barras_code}}?crc=3958926524" alt="" data-heightwidthratio="0.1996124031007752" width="80" height="80"/>
      </div>
      <div class="clearfix grpelem" id="u482-4"><!-- content -->
       <p>AQUÍ VA&nbsp; UNA BOLETAAAAAAAAAAAAAAAAA</p>
