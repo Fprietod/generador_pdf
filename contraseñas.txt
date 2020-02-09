@@ -1,0 +1,6 @@
+Contraseña para dev:
+usuario:admin
+contraseña:admin123$%
+Para conexion FTP 
+ssh: bioroboticaescom.com
+pass: biorobotica123$%
