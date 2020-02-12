@@ -4,5 +4,8 @@ contraseña:admin123$%
 Para conexion FTP 
 ssh: bioroboticaescom.com
 pass: biorobotica123$%
+---------------
+clubbiorobotica@gmail.com
+RObotica123$%
 
 http://imgfz.com/a/O7uU1sd/
