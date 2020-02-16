@@ -9,3 +9,5 @@ clubbiorobotica@gmail.com
 RObotica123$%
 
 http://imgfz.com/a/O7uU1sd/
+-------------------------------
+Por si quieres editar algo de la página, con el "?debug" a lado de 'web' funciona
